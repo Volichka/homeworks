@@ -1,0 +1,128 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+.enter {
+    color: #3D3D3D;   
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    width: 255px;
+    padding-bottom: 14px;    
+}
+.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;  
+    }
+.log {
+    width: 52px;
+    line-height: 16px;
+    color: #3D3D3D;        
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: none; 
+    margin-right: 12px;   
+    }
+.I {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 16px;
+    }
+.reg {
+    width: 78px;
+    line-height: 16px;
+    color: #46A358;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: none;
+    margin-left: 10px;
+    }
+.register {
+    width: 300px;
+    background-color:#ffffff;
+    border-bottom: 10px solid #46A358;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 50px auto;
+}
+
+.default-input {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+    color: #a5a5a5;
+    border: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 5px;
+    width: 270px;
+}
+.line {
+    margin-bottom: 16px;
+}
+.line1 {
+    margin-bottom: 41px;
+}
+.box {
+    background-color: #46A358;
+    border: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-left: 119px;
+    padding-right: 118px;
+    border-radius: 5px;
+    margin-bottom: 36px;
+}
+.register1 {
+    font-size: 13px;
+    line-height: 16px;
+    color: #3d3d3d;
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 27px;
+}
+.google {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    background-color: #ffffff;
+    color: #727272;
+    width: 298px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.google-img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 9px;
+}
+.facebook-img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 4px;
+}
