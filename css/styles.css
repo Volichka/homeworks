@@ -28,7 +28,7 @@
     border: none; 
     margin-right: 12px;   
     }
-.I {
+.i {
     color: #3D3D3D;
     font-size: 18px;
     font-style: normal;
@@ -94,9 +94,7 @@
     font-size: 13px;
     line-height: 16px;
     color: #3d3d3d;
-    width: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: center;
     margin-bottom: 27px;
 }
 .google {
