@@ -1,7 +1,6 @@
 * {box-sizing: border-box;}
 
-.wrapper {
-    background-color: #fff;
+.wrapper {    
     width: 1200px;
     margin: 0 auto;
     }
@@ -9,17 +8,12 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.header {    
-    width: 1200px;
-    height: 53px;
+.header { 
     border-bottom: rgba(70, 163, 88, 0.5) solid 0.3px;   
     margin-bottom: 12px;
     margin-top: 30px;
 }
-.main {
-    display: flex;
-    width: 1200px;
-    height: 450px;
+.main { 
     margin-bottom: 52px;        
 }
 .logo {
@@ -66,14 +60,12 @@
     width: 1200px;
     height: 450px;
 }
-.planet {
+.planet {    
     display: inline-block;
     vertical-align: top;
-    width: 693px;
-    height: 297px;
+    width: 693px;     
     margin-top: 68px;
-    margin-bottom: 85px;
-    
+    margin-bottom: 85px;    
 }
 .text-welcome {
 color: #3D3D3D;
@@ -111,8 +103,7 @@ margin-left: 43px;
 .image{
     display: inline-block;
     vertical-align: top;
-    width: 502px;
-    height: 450px;
+    width: 502px;    
 }
 .shop-now {
     border-radius: 6px;
