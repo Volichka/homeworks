@@ -81,6 +81,7 @@ text-decoration: none;
     line-height: 65px;
     font-family: "Hanging Letters";
     margin-bottom: 11px;
+    margin-top: 18px;
 }
 .h2 {
     color: #3D3D3D;
@@ -88,7 +89,8 @@ text-decoration: none;
     font-size: 23px;    
     font-weight: bold;
     line-height: 16px;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    margin-bottom: 6px;   
 }
 .h3 {
     color: #3D3D3D;
