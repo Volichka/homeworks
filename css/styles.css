@@ -41,10 +41,7 @@
 .menu a:hover {       
     border-bottom: #46a358 3px solid;
     }
-.logout {
-    background-image: url(../img/logout.svg);
-    background-repeat: no-repeat;
-    background-position: center;    
+.logout {       
     border-radius: 6px;
     background-color: #46A358;
     width: 100px;
@@ -56,15 +53,19 @@
        
     margin-left: 263px;
     align-content: center;
-    text-align: center;
+    text-align: center; 
     
 }
 .login-text { 
+    background-image: url(../img/logout.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
     text-decoration: none;
     color: #FFF;       
     font-size: 16px;
     line-height: normal;
     font-weight: 500; 
+    padding-left: 20px;
     }
 
     
