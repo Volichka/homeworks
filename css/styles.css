@@ -41,19 +41,32 @@
 .menu a:hover {       
     border-bottom: #46a358 3px solid;
     }
-.login-text {
+.logout {
+    background-image: url(../img/logout.svg);
+    background-repeat: no-repeat;
+    background-position: center;    
     border-radius: 6px;
     background-color: #46A358;
-    text-decoration: none;
-    color: #FFF;       
-    font-size: 16px;        
-    font-weight: 500;
+    width: 100px;
+    height: 35px;    
     display: inline-block;
     vertical-align: top;
-    line-height: normal;    
-    padding: 5px 20px;
-    margin-left: 263px;   
+    padding-top: 5px;
+    padding-bottom: 5px;  
+       
+    margin-left: 263px;
+    align-content: center;
+    text-align: center;
+    
+}
+.login-text { 
+    text-decoration: none;
+    color: #FFF;       
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500; 
     }
+
     
 .section {
     background-color: #f5f5f5;    
