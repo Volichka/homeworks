@@ -149,7 +149,7 @@
     justify-content: center;
     align-items: center;
 }
-.logout {
+/* !.logout {
     border-radius: 6px;
     background-color: #46A358;
     width: 100px;
@@ -158,8 +158,8 @@
     padding-bottom: 5px;          
     align-content: center;
     text-align: center;
-    text-align: center;
-    }
+    
+    } */
 
 .login-text {
     background-image: url(../img/logout.svg);
@@ -170,7 +170,15 @@
     font-size: 16px;
     line-height: normal;
     font-weight: 500;
-    padding-left: 20px;
+    padding-left: 37px;
+    padding-right: 17px;
+
+    border-radius: 6px;
+     background-color: #46A358;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    text-align: center;
     }
 .section-first {
     background-color: #f5f5f5;
@@ -248,17 +256,18 @@
     flex-flow: row;
     justify-content: space-between;
 }
-.top-list a {   
+.top-list a { 
+    display: block;  
     margin-right: 40px;
     color: #3D3D3D;
     font-size: 15px;
     font-weight: 400;
     line-height: 16px;
     text-decoration: none;
+    padding-bottom: 7px;
     border-bottom: 3px solid transparent;    
 }
-.top-list a:hover {
-    padding-bottom: 7px;
+.top-list a:hover {    
     color: #46A358;
     border-bottom-color: #46A358;
 }
@@ -369,6 +378,10 @@
     width: 100%;
     justify-content: center;
     align-content: center;
+    border-top: 1px transparent solid;
+}
+.img-back:hover {
+    border-top-color: #46A358;
 }
 .box-share {
     display: none;
@@ -443,16 +456,9 @@
 .item {
     width: 33.333%;   
     padding: 0 10px;
-    margin-bottom: 70px;
-    border-top: 1px transparent solid;
-    }
-.item:hover {
-    border-top-color: #46A358;
+    margin-bottom: 70px;   
     }
 
-.mr-0 {
-    margin-right: 0;
-}
 
 .off {
     position: relative;
@@ -520,7 +526,7 @@
 .section-third {
     display: flex;
     justify-content: space-between;
-    margin: 0 -10px;
+    padding: 0 10px;
 }
 .section-fourth {
     margin: 0 -10px;
@@ -528,7 +534,7 @@
 }
 .extra {
     width: 50%;
-    padding: 0 10px;
+    margin: 0 -10px;
 }
 .section1 {
     background-color: #fbfbfb;
