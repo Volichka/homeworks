@@ -366,9 +366,11 @@
 
 .left-side {
     width: 25%;
-    padding: 0 10px;
+    padding: 0 10px;    
 }
-
+.mini-left {
+    background-color: #FBFBFB;
+}
 .menu-left {
     background-color: #FBFBFB;
     padding-top: 14px;
@@ -418,14 +420,73 @@
 .banner {
     width: 100%;
 }
-
+.size {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 4px;
+    margin-top: 46px;
+    margin-left: 16px;
+}
+.box-size {
+    margin-bottom: 28px;
+    margin-left: 28px;
+    margin-right: 22px;
+}
 .labels-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 13.333%;
+    }
+.slider-text {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-top: 36px;
+    margin-bottom: 29px;
+    margin-left: 16px;
 }
-
+.ui-slider {
+    position: relative;
+    background: rgba(70, 163, 88, 0.20);
+    height: 4px;
+    margin-left: 27px;
+}
+.ui-slider-handle {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #46A358;
+    top: -6px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+.ui-slider-range {
+    background-color: #46A358;
+    height: 4px;
+    position: absolute;
+}
+.slider-price {
+    margin-left: 27px;
+    margin-top: 21px;
+    margin-bottom: 16px;
+}
+.btn-range {
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 23px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    margin-left: 27px;
+}
 .labels {
     display: flex;
     flex-direction: column;
@@ -436,13 +497,14 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 40px;
-}
+ }
 
 .check-text {
     color: #3D3D3D;
     font-size: 15px;
     font-weight: 400;
     line-height: 40px;
+    margin-bottom: 15px;
 }
 
 .check-text::before {
@@ -454,6 +516,9 @@
     border: 1px solid #3d3d3d;
     display: inline-block;
     vertical-align: middle;
+}
+.check-text:hover {
+    cursor: pointer;
 }
 
 .checkbox:checked+.check-text:before {
